@@ -73,3 +73,8 @@ print(len(new_string))
 path1 = "C:\\Users\\Student\\AppData"
 print(path1)
 my_string = """lorem ipsum dolor sit amet"""
+
+r1= list(range(1,5))
+r2 = list(range(7,15))
+res = r1 + r2
+print(res)
