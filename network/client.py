@@ -1,7 +1,7 @@
 import socket
 import threading
 clientSocket = socket.socket()
-clientSocket.connect(('192.168.31.113', 9123))
+clientSocket.connect(('5.35.86.125', 9123))
 def sendMessage():
     while True:
         message = input('Enter a message: ')

@@ -26,20 +26,33 @@
 # print(12 in my_tuple)
 # for item in my_tuple:
 #     print(item)
-my_set1 = {4,3,2,6,2}
+# my_set1 = {4,3,2,6,2}
+#
+# my_list = [1,2,3,4,4,5,2,5,1]
+# my_set2 = set(my_list)
+# print(my_set2)
+# # Объединение
+# print(my_set1.union(my_set2))
+# print(my_set1 | my_set2)
+# # Пересечение
+# print(my_set1.intersection(my_set2))
+# print(my_set1 & my_set2)
+# # Разность
+# print(my_set1.difference(my_set2))
+# print(my_set1 - my_set2)
+# # Симметрическая разность
+# print(my_set1.symmetric_difference(my_set2))
+# print(my_set1 ^ my_set2)
+#
+# a = {"as": "As"}
+# print(isinstance(a, dict))
 
-my_list = [1,2,3,4,4,5,2,5,1]
-my_set2 = set(my_list)
-print(my_set2)
-# Объединение
-print(my_set1.union(my_set2))
-print(my_set1 | my_set2)
-# Пересечение
-print(my_set1.intersection(my_set2))
-print(my_set1 & my_set2)
-# Разность
-print(my_set1.difference(my_set2))
-print(my_set1 - my_set2)
-# Симметрическая разность
-print(my_set1.symmetric_difference(my_set2))
-print(my_set1 ^ my_set2)
+WordsDict={}
+for iWord in range(4):
+    word_= input("enter")
+    len_=len(word_)
+    WordsDict.setdefault(word_, len_)
+    #WordsDict[word_]=len_
+
+print(isinstance(WordsDict.items(), type(WordsDict.items())))
+print(type(WordsDict.items()))
